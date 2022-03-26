@@ -1,0 +1,55 @@
+.bg-gradient-9 {
+    background: -webkit-linear-gradient(-45deg, #b14949 0%, #7d3e6f 30%)!important;   
+}
+.btn-primary {
+    background: #ffffff;
+    border-color: #ffffff;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #7d3e6f;
+}
+
+.btn-primary:hover {
+    background: -webkit-linear-gradient(311deg, #b14949 0%, #7d3e6f 30%);
+    border-color: #7d3e6f;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+
+.btn-primary:active {
+    background: -webkit-linear-gradient(311deg, #b14949 0%, #7d3e6f 30%);
+    border-color: #7d3e6f;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+
+.mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+}
+
+#sidebar-menu {
+    background: #ffffff;
+    box-shadow: rgb(136 165 191 / 48%) 1.95px 1.95px 2.6px;
+}
+
+#sidebar-menu > li > a {
+    padding: 5px 10px 0 0;
+    font-size: 15px;
+    height: 48px;
+    color: #7D3E6F;
+}
+
+#page-sidebar ul li a .glyph-icon {
+    color: #3c002f;
+}
+
+#page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
+    border-color: #ffffff;
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    color: #96435d;
+}
+
+#page-sidebar ul li.sfActive > a.sf-with-ul, #page-sidebar ul li a:active {
+    border-color: #ffffff;
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    color: #96435d;
+}
