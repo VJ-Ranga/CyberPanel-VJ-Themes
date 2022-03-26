@@ -1,6 +1,11 @@
 .bg-gradient-9 {
     background: -webkit-linear-gradient(-45deg, #b14949 0%, #7d3e6f 30%)!important;   
 }
+
+#header-logo .logo-content-big, .logo-content-small {
+    filter: sepia(100%);
+}
+
 .btn-primary {
     background: #ffffff;
     border-color: #ffffff;
