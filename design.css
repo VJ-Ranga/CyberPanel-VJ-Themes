@@ -1,17 +1,19 @@
+/* Header*/
+
 .bg-gradient-9 {
     background: -webkit-linear-gradient(-45deg, #b14949 0%, #7d3e6f 30%)!important;   
 }
-
-#header-logo .logo-content-big, .logo-content-small {
-    filter: sepia(100%);
-}
-
 .btn-primary {
     background: #ffffff;
     border-color: #ffffff;
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #7d3e6f;
 }
+
+#header-logo .logo-content-big, .logo-content-small {
+    filter: sepia(100%);
+}
+/* Button */
 
 .btn-primary:hover {
     background: -webkit-linear-gradient(311deg, #b14949 0%, #7d3e6f 30%);
@@ -27,9 +29,24 @@
     color: #ffffff;
 }
 
+/* Dashboard */
+
 .mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
-    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
 }
+
+.mx-10.col-lg-9.panel.col-md-push-50 {
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+}
+
+.c100 {
+    background-color: #7d3e6f45;
+}
+
+.c100>span {
+    color: #7d3e6f;
+}
+/* sidebar */
 
 #sidebar-menu {
     background: #ffffff;
@@ -61,4 +78,14 @@
 
 #sidebar-menu li .sidebar-submenu ul li a.sfActive {
     color: #7d3e6f;
+}
+
+/* Font */
+
+#page-title h2 {
+    color: #7d3e6f;
+}
+
+h1, h2, h3, h4, h5, h6, #page-title > h2, #page-title > p {
+    font-weight: 600;
 }
