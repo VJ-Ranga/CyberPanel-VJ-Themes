@@ -58,3 +58,7 @@
     box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
     color: #96435d;
 }
+
+#sidebar-menu li .sidebar-submenu ul li a.sfActive {
+    color: #7d3e6f;
+}
