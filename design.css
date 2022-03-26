@@ -62,7 +62,23 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
-
+.btn-purple {
+    color: #ffffff;
+    border-color: #7d3e6f !important;
+    background: -webkit-linear-gradient(311deg, #b14949 0%, #7d3e6f 30%) !important;
+}
+.btn-purple.active, .btn-purple:focus, .btn-purple:hover {
+    background: #ffffff !important;
+    border-color: #7d3e6f6e !important;
+    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    color: #7d3e6f;
+}
+.font-purple {
+    color: #009688!important;
+}
+.border-purple {
+    border-color: #009688!important;
+}
 
 /* sidebar */
 #sidebar-menu {
