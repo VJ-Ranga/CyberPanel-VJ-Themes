@@ -88,7 +88,7 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 
 #sidebar-menu > li > a {
     padding: 5px 10px 0 0;
-    font-size: 15px;
+    font-size: 14px;
     height: 48px;
     color: #7D3E6F;
 }
@@ -119,8 +119,6 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 
 #page-title h2 {
     color: #7d3e6f;
-}
-
-h1, h2, h3, h4, h5, h6, #page-title > h2, #page-title > p {
     font-weight: 600;
 }
+
