@@ -1,9 +1,26 @@
 # CyberPanel-VJ-Theme
 Simple CyberPanel Theme
 
-### CyberPanel Dashboard
+### CyberPanel-VJ-Theme-Purple
 
-![CyberPanel Dashboard](CyberPanel-VJ-Theme-screenshot.png)
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Purple-D.png)
+</br>
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Purple-L.png)
+</br></br>
+
+### CyberPanel-VJ-Theme-Blue
+
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Blue-D.png)
+</br>
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-blue-L.png)
+</br></br>
+
+### CyberPanel-VJ-Theme-Green
+
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Green-D.png)
+</br>
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Green-L.png)
+</br></br>
 
 
 ### How to Install
