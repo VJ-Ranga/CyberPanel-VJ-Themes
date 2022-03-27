@@ -28,3 +28,11 @@ Simple CyberPanel Theme
 Go to CyberPanel > Design </br>
 Paste the contents of css to the text area.
 Save.
+
+### How to Remove
+Remove everything from the Design text area.
+
+### Troubleshooting
+Try clearing cache on your web browser.
+
+### CyberPanel by [usmannasir](https://github.com/usmannasir)
