@@ -1,3 +1,33 @@
+/*loading*/
+#loading .spinner > div {
+    background-color: #7d3e6f;
+}
+
+
+/*login*/
+.col-login-left {
+    background: -webkit-linear-gradient(-45deg, #b14949 0%, #7d3e6f 30%)!important;
+}
+h1.text-transform-upr.text-center.panel-body.text-bold {
+    color: #a04655 !important;
+}
+button.btn.btn-success.btn-block.btn-login {
+    background: -webkit-linear-gradient(311deg, #b14949 0%, #7d3e6f 30%) !important;
+    border-color: #7d3e6f;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+button.btn.btn-success.btn-block.btn-login:hover {
+    background: #ffffff !important;
+    border-color: #7d3e6f6e !important;
+    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    color: #7d3e6f;
+}
+.form-group .input-group select.form-control:focus, .form-group .input-group input.form-control:focus, button.btn.btn-login {
+    border: 1px solid rgb(125 62 111 / 38%);
+}
+
+
 /* Header*/
 .bg-gradient-9 {
     background: -webkit-linear-gradient(-45deg, #b14949 0%, #7d3e6f 30%)!important;   
