@@ -168,3 +168,9 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 #page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, .content-box-header.bg-default>.ui-tabs-nav li>a:hover, .content-box-header.bg-gray>.ui-tabs-nav li>a:hover, .content-box-header.bg-white>.ui-tabs-nav li>a:hover, .features-tour-box h3, .font-primary, .tabs-nav li a:hover, .tabs-nav li.active a, a:hover, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
     color: var(--first-color);
 }
+
+/*badge color*/
+.badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
+    background: var(--third-color);
+    border-color: var(--first-color);
+}
