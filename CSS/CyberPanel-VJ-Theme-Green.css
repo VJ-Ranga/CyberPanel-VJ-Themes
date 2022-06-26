@@ -1,3 +1,12 @@
+/*
+    Name: CyberPanel-VJ-Theme-Green
+    Version: 1.1
+    Author: vjranga
+
+    Tested on CyberPanel 2.3 build 1
+
+*/
+
 :root {
     --bt-background-color: -webkit-linear-gradient(-45deg, #52b149 0%, #457d3e 30%);
     --bt-background-color-2: -webkit-linear-gradient(311deg, #52b149 0%, #457d3e 30%);
