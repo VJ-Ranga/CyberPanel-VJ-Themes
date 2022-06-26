@@ -1,6 +1,13 @@
 # CyberPanel-VJ-Theme
 Simple CyberPanel Theme
 
+### CyberPanel-VJ-Theme-Dark(beta)
+
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Dark-D.png)
+</br>
+![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Dark-L.png)
+</br></br>
+
 ### CyberPanel-VJ-Theme-Purple
 
 ![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Purple-D.png)
