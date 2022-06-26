@@ -1,6 +1,6 @@
 /*
     Name: CyberPanel-VJ-Theme-Dark
-    Version: 0.5.1
+    Version: 0.5.2
     Author: vjranga
 
     Tested on CyberPanel 2.3 build 1
@@ -168,7 +168,7 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     color: var(--icon-color);
 }
 #page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
-    border-color: #4a4a4a6e;
+    border-color: #e3e3e3e0;
     box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px;
     color: var(--third-color);
 }
