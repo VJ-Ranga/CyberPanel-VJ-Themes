@@ -1,6 +1,6 @@
 /*
     Name: CyberPanel-VJ-Theme-Dark
-    Version: 0.5
+    Version: 0.5.1
     Author: vjranga
 
     Tested on CyberPanel 2.3 build 1
@@ -44,7 +44,7 @@ body {
     background: var(--bt-background-color)!important;
 }
 h1.text-transform-upr.text-center.panel-body.text-bold {
-    color: var(--panel-text-color) !important;
+    color: var(--second-color) !important;
 }
 button.btn.btn-success.btn-block.btn-login {
     background: var(--bt-background-color-2) !important;
