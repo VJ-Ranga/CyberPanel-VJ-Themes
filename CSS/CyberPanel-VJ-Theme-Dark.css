@@ -1,9 +1,9 @@
 /*
     Name: CyberPanel-VJ-Theme-Dark
-    Version: 0.5.2
+    Version: 0.6
     Author: vjranga
 
-    Tested on CyberPanel 2.3 build 1
+    Tested on CyberPanel 2.3 build 2
 
 */
 
@@ -224,7 +224,7 @@ h2.ng-binding {
     color: var(--first-color);
 }
 
-/**/
+/************/
 label.col-sm-2.control-label.mb-5 {
     color: var(--first-color);
 }
