@@ -1,7 +1,7 @@
 /*
     Name: CyberPanel-VJ-Theme-Dark
-    Version: 0.6
-    Author: vjranga
+    Version: 1.0
+    Author: VJRanga
 
     Tested on CyberPanel 2.3 build 2
 
@@ -21,6 +21,8 @@
 --m1-box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px;
 
   }
+
+  
 /*page back*/
 #page-content {
     background: var(--m-background-color);
@@ -30,6 +32,7 @@ body {
     background-color: var(--m-background-color);
 }
  
+
 /*****loading*****/
 #loading .spinner > div {
     background-color: var(--second-color);
@@ -49,7 +52,7 @@ h1.text-transform-upr.text-center.panel-body.text-bold {
 button.btn.btn-success.btn-block.btn-login {
     background: var(--bt-background-color-2) !important;
     border-color: var(--first-color);
-    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
 button.btn.btn-success.btn-block.btn-login:hover {
@@ -74,6 +77,7 @@ a#sidebar-menu-item-server-ip-address > span {
     color: #dadada !important;
 }
 
+
 /***** Dashboard *****/
 .mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
     box-shadow: var(--m1-box-shadow);
@@ -94,6 +98,7 @@ a#sidebar-menu-item-server-ip-address > span {
     color: var(--first-color);
 }
 
+
 /***** Dashboard Button *****/
 a.tile-box.tile-box-shortcut.btn-primary {
     background: var(--btn-primary-background);
@@ -110,7 +115,7 @@ a.tile-box.tile-box-shortcut.btn-primary:hover {
 a.tile-box.tile-box-shortcut.btn-primary:active {
     background: var(--bt-background-color-2);
     border-color: var(--first-color);
-    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
 
@@ -125,13 +130,13 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 .btn-primary:hover, .btn-primary:focus {
     background: #ffffff;
     border-color: var(--first-color);
-    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: var(--second-color);
 }
 .btn-primary:active {
     background: var(--bt-background-color-2);
     border-color: var(--first-color);
-    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
 .btn-purple {
@@ -150,6 +155,13 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 }
 .border-purple {
     border-color: #009688!important;
+}
+button.close {
+    color: white;
+}
+a.btn.btn-border.btn-alt.border-black.btn-link.font-black {
+    color: white !important;
+    border-color: gainsboro !important;
 }
 
 
@@ -190,13 +202,12 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     border-color: var(--btn-primary-background);
 }
 
+
 /*****list*****/
 .panel.col-md-12.ng-scope {
     box-shadow: rgb(62 69 125 / 5%) 0px 4px 12px !important;
     background: #2c2c2c;
 }
-
-/***/
 .panel {
     box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px;
     background: #2c2c2c;
@@ -208,11 +219,9 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 .btn-link, .chosen-disabled .chosen-single, .content-box-header.bg-default>.ui-tabs-nav li>a, .content-box-header.bg-gray>.ui-tabs-nav li>a, .content-box-header.bg-white>.ui-tabs-nav li>a, .content-box-header>.ui-tabs-nav li.ui-tabs-active>a, .pagination>li>a, .pagination>li>span, .table, a, body .content-box-header>.ui-tabs-nav li.ui-tabs-active>a:hover, div.selector {
     color: var(--first-color);
 }
-
 h2.ng-binding {
     color: #b6b6b6 !important;
 }
-
 .content-box-header {
     color: #fbfbfb;
 }
@@ -224,17 +233,22 @@ h2.ng-binding {
     color: var(--first-color);
 }
 
-/************/
+
+/*badge color*/
+.badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
+    background: #737373;
+    border-color: #656565;
+}
+
+
+/***Dark Additional**/
 label.col-sm-2.control-label.mb-5 {
     color: var(--first-color);
 }
 label.col-sm-2.mb-5.text-right {
     color: var(--first-color);
 }
-.badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
-    background: #737373;
-    border-color: #656565;
-}
+
 .content-box.remove-border.clearfix.text-center {
     background: #2c2c2c;
 }
@@ -258,14 +272,4 @@ label{
 .modal-content {
    color: var(--panel-text-color);
     background-color: var(--m-background-color);
-
-}
-
-button.close {
-    color: white;
-}
-/**btn**/
-a.btn.btn-border.btn-alt.border-black.btn-link.font-black {
-    color: white !important;
-    border-color: gainsboro !important;
 }
