@@ -1,6 +1,6 @@
 /*
     Name: CyberPanel-VJ-Theme-Green
-    Version: 1.1
+    Version: 1.2
     Author: vjranga
 
     Tested on CyberPanel 2.3 build 2
@@ -16,6 +16,7 @@
     --third-color: #43965c;
     --c100-color: #3e7d4845;
     --panel-text-color: #46a076;
+    --m1-box-shadow: rgb(69 125 62 / 42%) 1.95px 1.95px 2.6px;
 
   }
 
@@ -58,14 +59,16 @@ button.btn.btn-success.btn-block.btn-login:hover {
 #header-logo .logo-content-big, .logo-content-small {
     filter: sepia(100%);
 }
-
+a#sidebar-menu-item-server-ip-address > span {
+    color: var(--first-color) !important;
+}
 
 /***** Dashboard *****/
 .mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
-    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    box-shadow: var(--m1-box-shadow);
 }
 .mx-10.col-lg-9.panel.col-md-push-50 {
-    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    box-shadow: var(--m1-box-shadow);
 }
 .c100 {
     background-color: var(--c100-color);
@@ -100,19 +103,19 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 .btn-primary {
     background: #ffffff;
     border-color: var(--second-color);
-    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    box-shadow: var(--m1-box-shadow);
     color: var(--first-color);
 }
 .btn-primary:hover, .btn-primary:focus {
     background: var(--bt-background-color-2);
     border-color: var(--first-color);
-    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    box-shadow: rgb(69 125 62 / 36%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
 .btn-primary:active {
     background: var(--bt-background-color-2);
     border-color: var(--first-color);
-    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    box-shadow: rgb(69 125 62 / 36%) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
     color: #ffffff;
 }
 .btn-purple {
@@ -137,7 +140,7 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 /***** sidebar *****/
 #sidebar-menu {
     background: #ffffff;
-    box-shadow: rgb(136 165 191 / 48%) 1.95px 1.95px 2.6px;
+    box-shadow: rgb(69 125 62 / 36%) 1.95px 1.95px 2.6px;
 }
 #sidebar-menu > li > a {
     padding: 5px 10px 0 0;
@@ -149,8 +152,8 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     color: var(--icon-color);
 }
 #page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
-    border-color: #ffffff;
-    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    border-color: #457d3e2e;
+    box-shadow: rgb(69 125 62 / 36%) 1.95px 1.95px 2.6px;
     color: var(--third-color);
 }
 #page-sidebar ul li.sfActive > a.sf-with-ul, #page-sidebar ul li a:active {
@@ -160,6 +163,9 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 }
 #sidebar-menu li .sidebar-submenu ul li a.sfActive {
     color: var(--first-color);
+}
+#sidebar-menu li .sidebar-submenu ul li a:hover, #sidebar-menu li .sidebar-submenu ul li a.sfActive {
+    background: #457d3e1f;
 }
 
 
@@ -177,7 +183,9 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 #page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, .content-box-header.bg-default>.ui-tabs-nav li>a:hover, .content-box-header.bg-gray>.ui-tabs-nav li>a:hover, .content-box-header.bg-white>.ui-tabs-nav li>a:hover, .features-tour-box h3, .font-primary, .tabs-nav li a:hover, .tabs-nav li.active a, a:hover, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
     color: var(--first-color);
 }
-
+h1, h2, h3, h4, h5, h6, #page-title > h2, #page-title > p {
+    font-weight: 600;
+}
 /*badge color*/
 .badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
     background: var(--third-color);
