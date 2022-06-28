@@ -8,7 +8,7 @@ Simple CyberPanel Theme
 ![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Purple-L.png)
 </br></br>
 
-### CyberPanel-VJ-Theme-Dark(beta)
+### CyberPanel-VJ-Theme-Dark
 
 ![CyberPanel Dashboard](screenshot/CyberPanel-VJ-Theme-Dark-D.png)
 </br>
