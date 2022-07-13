@@ -1,6 +1,6 @@
 /*
     Name: CyberPanel-VJ-Theme-Purple
-    Version: 1.1.6
+    Version: 1.2
     Author: VJRanga
 
     Tested on CyberPanel 2.3 build 2
@@ -197,40 +197,4 @@ h3, h4, h5, h6, #page-title p {
 .badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
     background: var(--third-color);
     border-color: var(--first-color);
-}
-
-
-/********** border-radius **********/
-.panel {
-    border-radius: 10px;
-}
-textarea {
-    border-radius: 10px !important;
-}
-select {
-    border-radius: 10px !important;
-}
-.col-lg-3.col-md-12 {
-    border-radius: 10px;
-}
-.alert {
-    border-radius: 10px !important;
-}
-.mx-10 {
-    border-radius: 10px !important;
-}
-a.btn.btn-border {
-    border-radius: 10px !important;
-}
-.btn-primary {
-    border-radius: 10px !important;
-}
-#sidebar-menu {
-    border-radius: 10px;
-}
-#page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
-     border-radius: 10px;
-}
-#sidebar-menu li .sidebar-submenu ul li a:hover, #sidebar-menu li .sidebar-submenu ul li a.sfActive {
-    border-radius: 5px;
 }
