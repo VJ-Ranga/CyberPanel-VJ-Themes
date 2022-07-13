@@ -1,6 +1,6 @@
 /*
     Name: CyberPanel-VJ-Theme-Purple
-    Version: 1.1
+    Version: 1.1.5
     Author: VJRanga
 
     Tested on CyberPanel 2.3 build 2
@@ -16,6 +16,7 @@
     --third-color: #96435d;
     --c100-color: #7d3e6f45;
     --panel-text-color: #a04655;
+    --m1-box-shadow: #7d3e6f6c 1.95px 1.95px 2.6px;
 
   }
 
@@ -58,7 +59,9 @@ button.btn.btn-success.btn-block.btn-login:hover {
 #header-logo .logo-content-big, .logo-content-small {
     filter: sepia(100%);
 }
-
+a#sidebar-menu-item-server-ip-address > span {
+    color: var(--first-color) !important;
+}
 
 /***** Dashboard *****/
 .mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
@@ -149,8 +152,8 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
     color: var(--icon-color);
 }
 #page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
-    border-color: #ffffff;
-    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    border-color: #7d3e6f43;
+    box-shadow: #7d3e6f4a 1.95px 1.95px 2.6px;
     color: var(--third-color);
 }
 #page-sidebar ul li.sfActive > a.sf-with-ul, #page-sidebar ul li a:active {
@@ -161,7 +164,9 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 #sidebar-menu li .sidebar-submenu ul li a.sfActive {
     color: var(--first-color);
 }
-
+#sidebar-menu li .sidebar-submenu ul li a:hover, #sidebar-menu li .sidebar-submenu ul li a.sfActive {
+    background: #7d3e6f3a;
+}
 
 /*****list*****/
 .panel.col-md-12.ng-scope {
@@ -176,6 +181,13 @@ a.tile-box.tile-box-shortcut.btn-primary:active {
 }
 #page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, .content-box-header.bg-default>.ui-tabs-nav li>a:hover, .content-box-header.bg-gray>.ui-tabs-nav li>a:hover, .content-box-header.bg-white>.ui-tabs-nav li>a:hover, .features-tour-box h3, .font-primary, .tabs-nav li a:hover, .tabs-nav li.active a, a:hover, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
     color: var(--first-color);
+}
+h3, h4, h5, h6, #page-title p {
+    font-weight: 600;
+}
+ #page-title p {
+    opacity: 0.8;
+    font-size: 14px;
 }
 
 /*badge color*/
