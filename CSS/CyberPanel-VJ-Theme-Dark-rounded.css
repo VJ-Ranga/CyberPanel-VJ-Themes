@@ -1,0 +1,310 @@
+/*
+    Name: CyberPanel-VJ-Theme-Dark
+    Version: 0.6
+    Author: VJRanga
+
+    Tested on CyberPanel 2.3 build 2
+
+*/
+
+:root {
+    --bt-background-color: -webkit-linear-gradient(-45deg, #2d2d2d  0%, #323232 30%);
+    --bt-background-color-2: -webkit-linear-gradient(311deg, #2d2d2d  0%, #323232 30%);
+    --first-color: #e0e0e0;
+    --second-color: #3c3c3c;
+    --icon-color: #fbfbfb;
+    --third-color: #ededed;
+    --c100-color: #bcbcbc;
+    --panel-text-color: #fbfbfb;
+--m-background-color: #1c1c1c;
+--btn-primary-background: #3c3c3c;
+--m1-box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px;
+
+  }
+
+  
+/*page back*/
+#page-content {
+    background: var(--m-background-color);
+}
+body {
+    color: #e2e2e2;
+    background-color: var(--m-background-color);
+}
+ 
+
+/*****loading*****/
+#loading .spinner > div {
+    background-color: var(--second-color);
+}
+#loading {
+    background: #050505db;
+}
+
+
+/*****login*****/
+.col-login-left {
+    background: var(--bt-background-color)!important;
+}
+h1.text-transform-upr.text-center.panel-body.text-bold {
+    color: var(--second-color) !important;
+}
+button.btn.btn-success.btn-block.btn-login {
+    background: var(--bt-background-color-2) !important;
+    border-color: var(--first-color);
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+button.btn.btn-success.btn-block.btn-login:hover {
+    background: #ffffff !important;
+    border-color: var(--second-color) !important;
+    box-shadow: var(--m1-box-shadow);
+    color: var(--second-color);
+}
+.form-group .input-group select.form-control:focus, .form-group .input-group input.form-control:focus, button.btn.btn-login {
+    border: 1px solid rgb(125 62 111 / 38%);
+}
+
+
+/***** Header*****/
+.bg-gradient-9 {
+    background: var(--bt-background-color)!important;   
+}
+#header-logo .logo-content-big, .logo-content-small {
+    filter: hue-rotate(173deg) grayscale(1) brightness(1.16);
+}
+a#sidebar-menu-item-server-ip-address > span {
+    color: #dadada !important;
+}
+
+
+/***** Dashboard *****/
+.mx-10.col-md-2.panel.panel-body.col-md-pull-50 {
+    box-shadow: var(--m1-box-shadow);
+}
+.mx-10.col-lg-9.panel.col-md-push-50 {
+    box-shadow: var(--m1-box-shadow);
+    background: #2c2c2c;
+    border-color: var(--second-color);
+}
+.c100 {
+    background-color: var(--c100-color);
+}
+.c100>span {
+    color: var(--second-color);
+}
+
+#page-sidebar ul li.header {
+    color: var(--first-color);
+}
+
+
+/***** Dashboard Button *****/
+a.tile-box.tile-box-shortcut.btn-primary {
+    background: var(--btn-primary-background);
+    border-color: var(--second-color);
+    box-shadow: var(--m1-box-shadow);
+    color: var(--first-color);
+}
+a.tile-box.tile-box-shortcut.btn-primary:hover {
+    background: var(--bt-background-color-2);
+    border-color: var(--first-color);
+    box-shadow: var(--m1-box-shadow);
+    color: #ffffff;
+}
+a.tile-box.tile-box-shortcut.btn-primary:active {
+    background: var(--bt-background-color-2);
+    border-color: var(--first-color);
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+
+
+/***** Button *****/
+.btn-primary {
+    background: var(--bt-background-color-2);
+    border-color: var(--second-color);
+    box-shadow: var(--m1-box-shadow);
+    color: var(--first-color);
+}
+.btn-primary:hover, .btn-primary:focus {
+    background: #ffffff;
+    border-color: var(--first-color);
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: var(--second-color);
+}
+.btn-primary:active {
+    background: var(--bt-background-color-2);
+    border-color: var(--first-color);
+    box-shadow: rgba(72, 72, 72, 0.48) 6px 2px 16px 0px, rgb(125 62 111 / 10%) -6px -2px 16px 0px;
+    color: #ffffff;
+}
+.btn-purple {
+    color: #ffffff;
+    border-color: var(--first-color) !important;
+    background: var(--bt-background-color-2) !important;
+}
+.btn-purple.active, .btn-purple:focus, .btn-purple:hover {
+    background: #ffffff !important;
+    border-color: var(--second-color) !important;
+    box-shadow: rgb(62 69 125 / 15%) 0px 4px 12px;
+    color: var(--first-color);
+}
+.font-purple {
+    color: #009688!important;
+}
+.border-purple {
+    border-color: #009688!important;
+}
+button.close {
+    color: white;
+}
+a.btn.btn-border.btn-alt.border-black.btn-link.font-black {
+    color: white !important;
+    border-color: gainsboro !important;
+}
+
+
+/***** sidebar *****/
+#sidebar-menu {
+    background: #292929;
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px
+}
+#sidebar-menu > li > a {
+    padding: 5px 10px 0 0;
+    font-size: 14px;
+    height: 48px;
+    color: var(--first-color);
+}
+#page-sidebar ul li a .glyph-icon {
+    color: var(--icon-color);
+}
+#page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
+    border-color: #e3e3e3e0;
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px;
+    color: var(--third-color);
+}
+#page-sidebar ul li.sfActive > a.sf-with-ul, #page-sidebar ul li a:active {
+    border-color: #ffffff;
+    box-shadow: rgb(220 226 234) 1.95px 1.95px 2.6px;
+    color: var(--third-color);
+}
+#sidebar-menu li .sidebar-submenu ul li a.sfActive {
+    color: var(--first-color);
+}
+#sidebar-menu li .sidebar-submenu ul li {
+    border-color: var(--btn-primary-background);
+}
+#sidebar-menu li .sidebar-submenu ul li a:hover, #sidebar-menu li .sidebar-submenu ul li a.sfActive {
+    background: #5c5c5c;
+}
+#sidebar-menu li .sidebar-submenu {
+    border-color: var(--btn-primary-background);
+}
+
+
+/*****list*****/
+.panel.col-md-12.ng-scope {
+    box-shadow: rgb(62 69 125 / 5%) 0px 4px 12px !important;
+    background: #2c2c2c;
+}
+.panel {
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px;
+    background: #2c2c2c;
+    border-color: #4a4a4a6e;
+}
+
+
+/***** Font *****/
+.btn-link, .chosen-disabled .chosen-single, .content-box-header.bg-default>.ui-tabs-nav li>a, .content-box-header.bg-gray>.ui-tabs-nav li>a, .content-box-header.bg-white>.ui-tabs-nav li>a, .content-box-header>.ui-tabs-nav li.ui-tabs-active>a, .pagination>li>a, .pagination>li>span, .table, a, body .content-box-header>.ui-tabs-nav li.ui-tabs-active>a:hover, div.selector {
+    color: var(--first-color);
+}
+h2.ng-binding {
+    color: #b6b6b6 !important;
+}
+.content-box-header {
+    color: #fbfbfb;
+}
+#page-title h2 {
+    color: var(--first-color);
+    font-weight: 600;
+}
+#page-sidebar ul li.sfHover>a.sf-with-ul, .btn-link:hover, .content-box-header.bg-default>.ui-tabs-nav li>a:hover, .content-box-header.bg-gray>.ui-tabs-nav li>a:hover, .content-box-header.bg-white>.ui-tabs-nav li>a:hover, .features-tour-box h3, .font-primary, .tabs-nav li a:hover, .tabs-nav li.active a, a:hover, table.dataTable thead th.sorting_asc:after, table.dataTable thead th.sorting_desc:after {
+    color: var(--first-color);
+}
+
+
+/*badge color*/
+.badge-yellow, .bg-yellow, .btn-yellow, .hover-yellow:hover, .label-yellow {
+    background: #737373;
+    border-color: #656565;
+}
+
+
+/***Dark Additional**/
+label.col-sm-2.control-label.mb-5 {
+    color: var(--first-color);
+}
+label.col-sm-2.mb-5.text-right {
+    color: var(--first-color);
+}
+
+.content-box.remove-border.clearfix.text-center {
+    background: #2c2c2c;
+}
+table.table {
+    background: #222222;
+}
+.progressbar {
+    background: #575757;
+}
+.content-box {
+    background: #222222;
+    border-color: #484848 !important;
+}
+label{
+    color: #dfdfdf;
+}
+.current-pack {
+    color: #bcbcbc;
+}
+
+.modal-content {
+   color: var(--panel-text-color);
+    background-color: var(--m-background-color);
+}
+
+/********** border-radius **********/
+.panel {
+    border-radius: 10px;
+}
+textarea {
+    border-radius: 10px !important;
+}
+select {
+    border-radius: 10px !important;
+}
+.col-lg-3.col-md-12 {
+    border-radius: 10px;
+}
+.alert {
+    border-radius: 10px !important;
+}
+.mx-10 {
+    border-radius: 10px !important;
+}
+a.btn.btn-border {
+    border-radius: 10px !important;
+}
+.btn-primary {
+    border-radius: 10px !important;
+}
+#sidebar-menu {
+    border-radius: 10px;
+}
+#page-sidebar ul li.sfHover > a.sf-with-ul, #page-sidebar ul li a:hover {
+     border-radius: 10px;
+}
+#sidebar-menu li .sidebar-submenu ul li a:hover, #sidebar-menu li .sidebar-submenu ul li a.sfActive {
+    border-radius: 5px;
+}
