@@ -1,6 +1,6 @@
 /*
     Name: CyberPanel-VJ-Theme-Dark
-    Version: 0.6
+    Version: 0.7
     Author: VJRanga
 
     Tested on CyberPanel 2.3 build 2
@@ -307,4 +307,13 @@ a.btn.btn-border {
 }
 #sidebar-menu li .sidebar-submenu ul li a:hover, #sidebar-menu li .sidebar-submenu ul li a.sfActive {
     border-radius: 5px;
+}
+button.btn.btn-success.btn-block.btn-login {
+    border-radius: 10px;
+}
+input.form-control.ng-pristine.ng-untouched.ng-empty.ng-invalid.ng-invalid-required {
+    border-radius: 10px 0px 0px 10px;
+}
+span.input-group-addon.bg-blue {
+    border-radius: 0px 10px 10px 0px;
 }
