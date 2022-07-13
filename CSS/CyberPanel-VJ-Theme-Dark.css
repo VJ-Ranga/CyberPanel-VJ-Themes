@@ -1,6 +1,6 @@
 /*
     Name: CyberPanel-VJ-Theme-Dark
-    Version: 1.0
+    Version: 1.1
     Author: VJRanga
 
     Tested on CyberPanel 2.3 build 2
@@ -196,7 +196,7 @@ a.btn.btn-border.btn-alt.border-black.btn-link.font-black {
     border-color: var(--btn-primary-background);
 }
 #sidebar-menu li .sidebar-submenu ul li a:hover, #sidebar-menu li .sidebar-submenu ul li a.sfActive {
-    background: var(--second-color);
+    background: #5c5c5c;
 }
 #sidebar-menu li .sidebar-submenu {
     border-color: var(--btn-primary-background);
