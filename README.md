@@ -4,6 +4,9 @@ Modern, unified themes for CyberPanel with automatic Light/Dark mode support.
 
 > **Tested on:** CyberPanel 2.4 build 4
 
+> [!NOTE]
+> These themes are still in development and may not cover all UI elements. Some minor styling issues may occur on certain pages. Feel free to report issues or contribute improvements!
+
 ---
 
 ## ✨ Features
@@ -87,12 +90,6 @@ CSS/VJ-Theme-Dark-v2.css
 
 - **Theme not applying?** Clear your browser cache (Ctrl+Shift+R)
 - **Dark mode not working?** Ensure you're using CyberPanel 2.4+ with theme toggle support
-
----
-
-## 📁 Legacy Themes (v1)
-
-The original v1 themes are still available in the `CSS/` folder but are not recommended for new installations.
 
 ---
 
