@@ -20,8 +20,8 @@ Modern, unified themes for CyberPanel with automatic Light/Dark mode support.
 ### VJ Purple Theme
 Premium purple gradient with rose accents.
 
-![VJ Purple Dark](screenshot/CyberPanel-VJ-Theme-Purple-D.png)
-![VJ Purple Light](screenshot/CyberPanel-VJ-Theme-Purple-L.png)
+![VJ Purple Dark](screenshot/VJ-Theme-Purple-D.png)
+![VJ Purple Light](screenshot/VJ-Theme-Purple-L.png)
 
 ```
 CSS/VJ-Theme-Purple-v2.css
@@ -32,8 +32,8 @@ CSS/VJ-Theme-Purple-v2.css
 ### VJ Blue Theme
 Deep blue professional look.
 
-![VJ Blue Dark](screenshot/CyberPanel-VJ-Theme-Blue-D.png)
-![VJ Blue Light](screenshot/CyberPanel-VJ-Theme-blue-L.png)
+![VJ Blue Dark](screenshot/VJ-Theme-Blue-D.png)
+![VJ Blue Light](screenshot/VJ-Theme-Blue-L.png)
 
 ```
 CSS/VJ-Theme-Blue-v2.css
@@ -44,8 +44,8 @@ CSS/VJ-Theme-Blue-v2.css
 ### VJ Green Theme
 Fresh forest green design.
 
-![VJ Green Dark](screenshot/CyberPanel-VJ-Theme-Green-D.png)
-![VJ Green Light](screenshot/CyberPanel-VJ-Theme-Green-L.png)
+![VJ Green Dark](screenshot/VJ-Theme-Green-D.png)
+![VJ Green Light](screenshot/VJ-Theme-Green-L.png)
 
 ```
 CSS/VJ-Theme-Green-v2.css
@@ -56,8 +56,8 @@ CSS/VJ-Theme-Green-v2.css
 ### VJ Dark Theme
 Full dark experience - Standard Dark in Normal Mode, Deep Dark/AMOLED in Dark Mode.
 
-![VJ Dark Dark](screenshot/CyberPanel-VJ-Theme-Dark-D.png)
-![VJ Dark Light](screenshot/CyberPanel-VJ-Theme-Dark-L.png)
+![VJ Dark Dark](screenshot/VJ-Theme-Dark-D.png)
+![VJ Dark Light](screenshot/VJ-Theme-Dark-L.png)
 
 ```
 CSS/VJ-Theme-Dark-v2.css
