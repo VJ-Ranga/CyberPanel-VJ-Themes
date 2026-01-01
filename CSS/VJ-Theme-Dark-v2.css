@@ -1,0 +1,320 @@
+/* ==========================================================================
+   Name: VJ-Theme-Dark-v2
+   Version: 2.0
+   Author: VJRanga (CloudyCode)
+   Description: Unified Dark Brand Theme (Login + Dashboard + Dark Mode)
+   Tested on: CyberPanel 2.4 build 4
+   ========================================================================== */
+
+:root {
+    /* 1. BRAND COLORS */
+    --vj-main: #323232;
+    --vj-light: #5a5a5a;
+    --vj-grad: linear-gradient(135deg, #5a5a5a 0%, #525252 100%);
+
+    /* 2. NORMAL MODE (STANDARD DARK THEME) */
+    /* We override "Light Mode" variables to be Dark to ensure always-dark look */
+    --bg-primary: #1c1c1c !important;
+    --bg-secondary: #2c2c2c !important;
+    --bg-sidebar: #222222 !important;
+    --bg-sidebar-item: #2c2c2c !important;
+    --bg-hover: rgba(255, 255, 255, 0.12) !important;
+
+    /* Force Light Text for Visibility */
+    --text-primary: #e2e2e2 !important;
+    --text-secondary: #aaaaaa !important;
+    --text-heading: #ffffff !important;
+
+    --accent-color: #a0a0a0 !important;
+    --accent-hover: #ffffff !important;
+    --border-color: rgba(255, 255, 255, 0.1) !important;
+    --shadow-color: rgba(0, 0, 0, 0.4) !important;
+    --ai-banner-bg: var(--vj-grad) !important;
+    --active-shadow: rgba(0, 0, 0, 0.5) !important;
+    --text-inverse: #ffffff !important;
+}
+
+#sidebar .menu-item.active {
+    box-shadow: 0 3px 10px var(--active-shadow) !important;
+}
+
+/* ==========================================================================
+   3. DARK MODE OVERRIDES (DEEP DARK / AMOLED STYLE)
+   ========================================================================== */
+[data-theme="dark"] {
+    --vj-dark-bg: #000000;
+    --vj-card-bg: #0f0f0f;
+    --vj-accent: #d4d4d4;
+    --vj-text: #ffffff;
+    --vj-border: #333333;
+
+    --bg-primary: var(--vj-dark-bg) !important;
+    --bg-secondary: var(--vj-card-bg) !important;
+    --bg-sidebar: #050505 !important;
+    --bg-sidebar-item: #141414 !important;
+    --text-primary: var(--vj-text) !important;
+    --text-secondary: #888888 !important;
+    --accent-color: #cccccc !important;
+    --border-color: rgba(255, 255, 255, 0.08) !important;
+    --shadow-color: rgba(0, 0, 0, 0.8) !important;
+    --ai-banner-bg: linear-gradient(135deg, #222222 0%, #000000 100%) !important;
+    --bg-hover: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* ==========================================================================
+   4. FORCE DARK TEXT OVERRIDES (FOR NORMAL MODE VISIBILITY)
+   ========================================================================== */
+/* Since Normal Mode is now Dark, we must ensure these elements are not black */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.card-title,
+.section-title,
+.insight-value {
+    color: var(--text-primary) !important;
+}
+
+.text-muted,
+.text-secondary,
+.card-text,
+.insight-label,
+.stat-card-title,
+.stat-card-value {
+    color: var(--text-secondary) !important;
+}
+
+/* Ensure Input Fields are legible */
+.form-control,
+input,
+select,
+textarea {
+    background-color: var(--bg-sidebar-item) !important;
+    color: var(--text-primary) !important;
+    border-color: var(--border-color) !important;
+}
+
+/* Ensure Modals are dark */
+.modal-content {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+}
+
+/* ==========================================================================
+   4. LOGIN PAGE STYLES
+   ========================================================================== */
+
+/* Left Panel & Art Effect */
+.col-login-left {
+    background: var(--vj-grad) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    /* Fixes extra space from circle */
+}
+
+/* Animated Circle Background Art */
+.col-login-left::after {
+    content: "";
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Changelog Card (Glassmorphism) */
+.col-login-left .login-changelogs .card {
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 15px !important;
+    padding: 20px !important;
+}
+
+.col-login-left .card-title,
+.col-login-left .card-text,
+.col-login-left h2,
+.col-login-left h4 {
+    color: var(--text-inverse) !important;
+}
+
+/* Login Form (Right Panel) - DARK VIBE */
+.col-login-right {
+    background: var(--bg-primary) !important;
+}
+
+.col-login-right h1,
+.col-login-right h4.text-muted {
+    color: var(--text-primary) !important;
+}
+
+/* Inputs & Form Groups - FLAT STYLE */
+.form-group .input-group input.form-control,
+.form-group .input-group select.form-control {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: none !important;
+    border-radius: 10px 0 0 10px !important;
+    padding-left: 15px !important;
+    height: 50px !important;
+}
+
+.form-group .input-group input.form-control::placeholder {
+    color: var(--text-secondary) !important;
+}
+
+.form-group .input-group input.form-control:focus {
+    background-color: #3a3a3a !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.input-group-addon.bg-blue {
+    background-color: var(--vj-main) !important;
+    border: none !important;
+    border-radius: 0 10px 10px 0 !important;
+    color: var(--text-inverse) !important;
+}
+
+/* Sign-In Button */
+button.btn.btn-login,
+button.btn-success.btn-login {
+    background: var(--vj-grad) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    height: 50px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    color: var(--text-inverse) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+button.btn.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Login Title */
+h1#loginFormTitle,
+.col-login-right h1 {
+    color: var(--text-primary) !important;
+}
+
+/* ==========================================================================
+   5. DASHBOARD UI STYLES
+   ========================================================================== */
+
+/* Header & Logo Icons */
+#header {
+    border-bottom: 2px solid var(--vj-main) !important;
+}
+
+#header .logo-icon,
+.sidebar-logo .logo-icon {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Sidebar Navigation */
+#sidebar .section-header {
+    background: var(--vj-main) !important;
+    color: var(--text-inverse) !important;
+}
+
+#sidebar .menu-item i {
+    color: var(--accent-color) !important;
+}
+
+#sidebar .menu-item.active,
+#sidebar .menu-item.active:hover,
+#sidebar .menu-item.active i,
+#sidebar .menu-item.active span {
+    color: var(--text-inverse) !important;
+}
+
+[data-theme="light"] #sidebar .menu-item.active {
+    background: var(--vj-grad) !important;
+}
+
+[data-theme="dark"] #sidebar .menu-item.active {
+    background: var(--vj-main) !important;
+}
+
+[data-theme="dark"] #sidebar .menu-item i {
+    color: var(--vj-accent) !important;
+}
+
+/* Dashboard Cards & Progress */
+.stat-card,
+.overview-section,
+.insights-section,
+.activity-section {
+    border-radius: 15px !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 12px var(--shadow-color) !important;
+}
+
+.progress-bar {
+    background: var(--vj-grad) !important;
+}
+
+.insight-icon {
+    background: var(--vj-grad) !important;
+    color: var(--text-inverse) !important;
+}
+
+.insight-value {
+    color: var(--text-primary) !important;
+}
+
+[data-theme="dark"] .insight-value {
+    color: var(--vj-accent) !important;
+}
+
+/* Activity Tabs */
+.activity-tab.active,
+.activity-tab.active:hover {
+    background: var(--vj-grad) !important;
+    color: var(--text-inverse) !important;
+    box-shadow: 0 2px 4px var(--active-shadow) !important;
+}
+
+[data-theme="dark"] .activity-tab.active {
+    background: var(--vj-main) !important;
+    border: 1px solid var(--vj-accent) !important;
+}
+
+.activity-tab:not(.active):hover {
+    color: var(--text-primary) !important;
+    background: var(--bg-hover) !important;
+}
+
+.insight-card:hover {
+    box-shadow: 0 5px 20px var(--active-shadow) !important;
+    border-color: var(--vj-light) !important;
+}
+
+.view-activity-btn:hover {
+    box-shadow: 0 2px 4px var(--active-shadow) !important;
+}
+
+/* Modals */
+.modal-content {
+    border-radius: 16px !important;
+    border: 1px solid var(--border-color) !important;
+    background: var(--bg-secondary) !important;
+}
+
+.btn-primary:hover {
+    background: var(--vj-grad) !important;
+    box-shadow: 0 4px 12px var(--active-shadow) !important;
+    color: var(--text-inverse) !important;
+    transform: translateY(-1px) !important;
+}
